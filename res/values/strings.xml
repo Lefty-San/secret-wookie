@@ -3,10 +3,11 @@
    
     <string name="app_name">MyNewApp</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="edit_message">Your Name</string>
     <string name="title_splash">Welcome</string>
     <string name="title_landing">ToDo</string>
     <string name="label_name">Name:</string>
     <string name="label_color">Color:</string>
+    <string name="title_send">Send</string>
 
 </resources>
