@@ -14,9 +14,14 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-        android:name="com.example.myfirstapp.DisplayMessageActivity"
+        android:name="com.example.mynewapp.DisplayMessageActivity"
         android:label="@string/title_activity_display_message"
-        android:parentActivityName="com.example.myfirstapp.MainActivity" >
+        android:parentActivityName="com.example.mynewapp.MainActivity" >
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.example.myfirstapp.MainActivity" />
